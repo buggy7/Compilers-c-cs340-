@@ -1,0 +1,34 @@
+test1.alpha
+
+Symbol Table gia scope : 0
+         key=sin             library_function 		  line=0  scope=0 is_active=1
+         key=tableindices    library_function 		  line=0  scope=0 is_active=1
+         key=strtonum        library_function		  line=0  scope=0 is_active=1
+         key=tablelength     library_function		  line=0  scope=0 is_active=1
+         key=sqrt            library_function 		  line=0  scope=0 is_active=1
+         key=totalarguments  library_function 		  line=0  scope=0 is_active=1
+         key=input           library_function 		  line=0  scope=0 is_active=1
+         key=tablecopy       library_function		  line=0  scope=0 is_active=1
+         key=typeof          library_function 		  line=0  scope=0 is_active=1
+         key=cos             library_function		  line=0  scope=0 is_active=1
+         key=argument        library_function		  line=0  scope=0 is_active=1
+         key=print           library_function		  line=0  scope=0 is_active=1
+	 key=Global          variable        		  line=8  scope=0 is_active=1
+	 key=foo             user_function(foo_x,foo_y)   line=10 scope=0 is_active=1
+
+Symbol Table gia scope : 1
+         key=foo_y         variable  line=10 scope=1 is_active=0
+         key=x2            variable  line=27 scope=1 is_active=0
+         key=t             variable  line=27 scope=1 is_active=0
+         key=foo_x         variable  line=10 scope=1 is_active=0
+         key=x2            variable  line=13 scope=1 is_active=0
+         key=x4            variable  line=14 scope=1 is_active=0
+         key=local_x2      variable  line=12 scope=1 is_active=0
+
+Symbol Table gia scope : 2
+         key=x             variable  line=16 scope=3 is_active=0
+         key=w             variable  line=16 scope=3 is_active=0
+         key=x4            variable  line=17 scope=4 is_active=0
+
+
+

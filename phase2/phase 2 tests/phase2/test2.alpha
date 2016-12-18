@@ -1,0 +1,26 @@
+{ { { { { { { x; /*scope --->7*/ } } } } } } }
+
+    {
+         /*scope --->1*/
+        function foo(/*scope---->2*/)
+        {
+               scope2 = 2;
+                /*scope ---->2*/
+               function goo (goo_arg /*scope--->3*/)
+               {
+                      scope3=3;
+                        /*scope---->3*/
+                      while ( 1 )
+                        {
+                               /*scope --->4*/
+                                {
+                                       z = 1; /*scope ---->5*/
+                               }
+                        }
+                } /*kleinei h goo*/
+
+        } /*kleinei h foo*/
+
+    }
+
+    { { { { { { { x=1 ; /*scope--->7*/ } } } } } } }

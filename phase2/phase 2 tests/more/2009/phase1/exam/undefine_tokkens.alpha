@@ -1,0 +1,6 @@
+//Illegal chars $, _d, ~, ?, #
+$ agnwstos xarakthras _d %s
+~	
+a = (a ? b : 12);
+# undefine tokken
+

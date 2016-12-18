@@ -1,0 +1,31 @@
+a = 1;
+while(1)
+{
+	b=a;	//lc=1;
+	if(b)
+		break; //prepei na paei sto e=1;
+	
+	function f()
+	{
+		//break; //edw prepei na xtuphsei error :)
+		c=1; 		//lc = 0;
+		while(c)
+		{			//lc=1;
+			if(x)
+				break; 	//prepei na paei sto d=1;
+			while(1)
+				if(x)
+					break;  //prepei na paei sto x=2;
+							//edw ginontai ta patch twn lc=2;
+				else 
+					continue; //edw prepei na paei sto while(1) ths line16
+			x=2;
+		} //edw ginontai ta patch tou lc=1;
+		if(r)
+			//break;
+		d=1;
+	} //end of func f
+	
+}
+e = 1;
+//lc = loopcounter

@@ -1,0 +1,10 @@
+a = 1;
+b = 2;
+c = 3;
+d = 4;
+
+for(cnt = 0, e = 4, f = 5; (a < b or c < d) and e < f; ++a, ++cnt ){
+	print(cnt, "\n");
+	if ( a >= 3)
+		c++;
+}

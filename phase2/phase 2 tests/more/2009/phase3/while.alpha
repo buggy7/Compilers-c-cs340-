@@ -1,0 +1,20 @@
+a = 1;
+b = 2;
+c = 3;
+d = 4;
+
+cnt = 0;
+e = 4;
+f = 6; 
+while((a < b or c < d) and e < f){
+        print(cnt, "\n");
+        if (a == 2)
+                continue;
+        if (a >= 3)
+                c++;
+        if (e >= f)
+                break;
+	++a;
+	++cnt;
+}
+

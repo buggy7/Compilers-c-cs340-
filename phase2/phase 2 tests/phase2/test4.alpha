@@ -1,0 +1,15 @@
+
+
+
+if(x=1){
+        ::Global = 7;
+}
+
+function f(){
+        local f=10;
+        function g(){
+		f=5;
+                return f();
+        }
+}
+

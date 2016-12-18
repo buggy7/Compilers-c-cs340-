@@ -1,0 +1,18 @@
+print ("Simple expressions...");
+x = y = 10;
+z = (x+y) * (x-y);
+a = x >= y or y >= z;
+
+print("Defining functions...");
+x = (function(){x = (function(){x = (function(){x = (function(){x = (function(){x = (function(){});});});});});});
+
+print("Function calling...");
+x = (function(){return (function(){return (function(){return (function(){return 3.0;});});});});
+result = x()()()(); // should be 3
+
+print("Simple table calls...");
+t = [-1, 2, 3, 4];
+x = t.a.b.c; // tablegetelem t "a" t1; t1 "b" t2; t2 "c" t3; assign t3 x
+
+print("Table creation...");
+t = [ {"x" : 0}, {"y":15+10*0}, {-1:0} ];

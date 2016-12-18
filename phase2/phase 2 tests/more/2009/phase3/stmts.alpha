@@ -1,0 +1,94 @@
+
+x = input();
+
+///--- if statement
+print("***** TESTING IF *****");
+if (x > 2 and x % 2 == 0)
+{
+	y = 3*x;
+	if (x > 10 or y < 100)
+		print("internal if stmt");
+}
+print("**********************");
+
+
+///--- if-else statement
+print("***** TESTING IF_ELSE *****");
+if (2 > 0 - 4 or true == false)
+{
+	if (x > 10 or y < 100)
+		print("internal IF-else body");
+	else
+		print("internal if-ELSE body");
+}
+else
+{
+	if (true)
+		x = 2+3;
+	else if (false)
+		x = y+3;
+	else
+		x = 0;
+}
+print("***************************");
+
+
+///--- simple test for tables
+print("***** TABLES *****");
+
+array = [0, 1, 2, 3, 4, 5];
+t = [ {"foo":27}, {"bender":1394}, {"bar": [1,2,3]},
+	  {"()":(function (self, new_foo){self.foo = new_foo;})} ];
+
+print("******************");
+
+
+///--- while statement
+print("***** TESTING WHILE *****");
+while (x < 100)
+{
+	while (true)
+	{
+		if (t.bender > 128)
+			break;
+		else if (t.foo < 0)
+			continue;
+		t.dummy = (function () { print("no name function"); });
+	}
+	--x;
+}
+print("*************************");
+
+
+///--- for statement
+print("***** TESTING FOR *****");
+for (i=0, j=K; i < K and j >= 0; ++i, --j)
+{
+	while (i != 0)
+	{
+		i = 0;
+		if (array[0] == 0)
+			break;
+		print("inner while body");
+	}
+}
+print("***********************");
+
+
+///--- for statement
+print("***** TESTING FUNCS *****");
+
+t.bar.x.y()();
+
+(function mul(x, y) { print(x*y); }) (6,7);
+
+t.foo = mul;
+t.foo(6, 7, "error?");
+
+t( (function identity(x) { return x; }) );
+print(t.foo(72));
+
+t(42);
+print(t.foo);
+
+print("*************************");

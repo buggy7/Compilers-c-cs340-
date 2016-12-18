@@ -1,0 +1,30 @@
+
+print("Evaluating an if/else expr...");
+
+foo = true and false;
+d = 0;
+if (foo and true or false) {
+	++d;
+}
+else {
+	r = d--;
+}
+
+print("Evaluating a while statement...");
+while(foo and d > 1821) {
+	r = --d;
+}
+
+print("Evaluating a for statement...");
+for (i = 0; i > 1821; i++) {
+	if (false) {
+		break;
+	}
+	else
+		continue;
+	continue;
+}
+
+print("And a little if statement just for fun");
+if (a and b and c and d and e and f and g and h and i and j and k and l and m and o and p and q and r and s and t and u and v and w and x and y and z){}
+

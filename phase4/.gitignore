@@ -1,0 +1,9 @@
+/.idea/
+/al
+/binary
+/parser.hpp
+/instructions.txt
+/parser.cpp
+/parser.output
+/quads.txt
+/scanner.cpp

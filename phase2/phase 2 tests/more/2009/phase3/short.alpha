@@ -1,0 +1,52 @@
+a = b = c = d = e = f = 1;
+
+print("***************** TEST 1 ********************");
+
+if (a()() and b()() or c()() and d()() or f()()) {
+	print("syn8hkh TRUE");
+}
+else {
+
+	print("syn8hkh FALSE");
+}
+
+print("***************** TEST 2 **********************");
+
+while (a() < b() and (c() < d() or e() > f()) and (c < d)) {
+	++a;
+	break;
+	continue;
+	b++;
+}
+
+print("****************** TEST 3 *********************");
+
+for (; a or b or c or d or e or f or g; ) {
+	break;
+	break;
+	break;
+	break;
+	break;
+	break;
+	break;
+	break;
+	break;
+	break;
+}
+
+print("********************* TEST 4 *******************");
+
+while ( a and b and c and d and (e or f or g) ) {
+	continue;
+	continue;
+	continue;
+	continue;
+	a();
+	b();
+	c();
+	continue;
+	continue;
+	continue;
+	continue;
+}
+

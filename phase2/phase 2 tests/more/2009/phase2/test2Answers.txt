@@ -1,0 +1,38 @@
+Symbol Table gia scope : 0
+         key=sin             library_function 		  line=0  scope=0 is_active=1
+         key=tableindices    library_function 		  line=0  scope=0 is_active=1
+         key=strtonum        library_function		  line=0  scope=0 is_active=1
+         key=tablelength     library_function		  line=0  scope=0 is_active=1
+         key=sqrt            library_function 		  line=0  scope=0 is_active=1
+         key=totalarguments  library_function 		  line=0  scope=0 is_active=1
+         key=input           library_function 		  line=0  scope=0 is_active=1
+         key=tablecopy       library_function		  line=0  scope=0 is_active=1
+         key=typeof          library_function 		  line=0  scope=0 is_active=1
+         key=cos             library_function		  line=0  scope=0 is_active=1
+         key=argument        library_function		  line=0  scope=0 is_active=1
+         key=print           library_function		  line=0  scope=0 is_active=1
+
+Symbol Table gia scope : 1
+         key=foo           user_function()  	   line=5  scope=1 is_active=0
+
+Symbol Table gia scope : 2
+         key=scope2        variable        	   line=7  scope=2 is_active=0
+         key=goo           user_function(goo_arg)  line=9  scope=2 is_active=0
+
+Symbol Table gia scope : 3
+         key=goo_arg        variable  line=9  scope=3 is_active=0
+         key=scope3         variable  line=11 scope=3 is_active=0
+	
+Symbol Table gia scope : 4
+
+
+Symbol Table gia scope : 5
+         key=z              value=variable  line=17 scope=5 is_active=0
+
+Symbol Table gia scope : 6
+
+Symbol Table gia scope : 7
+         key=x              value=variable  line=26 scope=7 is_active=0
+         key=x              value=variable  line=1  scope=7 is_active=0
+
+

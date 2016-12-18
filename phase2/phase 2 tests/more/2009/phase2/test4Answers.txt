@@ -1,0 +1,30 @@
+ERROR : Den yparxei to antistoixo global id: Global!
+ERROR : h f den einai visible sthn g 
+
+Symbol Table gia scope : 0
+         key=sin             library_function 		  line=0  scope=0 is_active=1
+         key=tableindices    library_function 		  line=0  scope=0 is_active=1
+         key=strtonum        library_function		  line=0  scope=0 is_active=1
+         key=tablelength     library_function		  line=0  scope=0 is_active=1
+         key=sqrt            library_function 		  line=0  scope=0 is_active=1
+         key=totalarguments  library_function 		  line=0  scope=0 is_active=1
+         key=input           library_function 		  line=0  scope=0 is_active=1
+         key=tablecopy       library_function		  line=0  scope=0 is_active=1
+         key=typeof          library_function 		  line=0  scope=0 is_active=1
+         key=cos             library_function		  line=0  scope=0 is_active=1
+         key=argument        library_function		  line=0  scope=0 is_active=1
+         key=print           library_function		  line=0  scope=0 is_active=1
+         key=f       	     user_function()   		  line=8  scope=0 is_active=1
+         key=x               variable  	  		  line=4  scope=0 is_active=1
+        
+
+
+Symbol Table gia scope : 1
+         key=f              variable  	     line=9  scope=1 is_active=0
+         key=g              user_function()  line=10 scope=1 is_active=0
+
+
+	 
+	 
+gia to 2o error anaferomai sthn f poy einai sthn grammh 9 kai den einai visible sthn gramh 11
+

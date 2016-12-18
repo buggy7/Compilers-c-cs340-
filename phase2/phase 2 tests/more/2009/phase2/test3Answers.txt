@@ -1,0 +1,30 @@
+ERROR : function g used as an l-value
+
+Symbol Table gia scope : 0
+         key=sin             library_function	  line=0  scope=0 is_active=1
+         key=tableindices    library_function	  line=0  scope=0 is_active=1
+         key=strtonum        library_function	  line=0  scope=0 is_active=1
+         key=tablelength     library_function	  line=0  scope=0 is_active=1
+         key=sqrt            library_function	  line=0  scope=0 is_active=1
+         key=totalarguments  library_function	  line=0  scope=0 is_active=1
+         key=input           library_function	  line=0  scope=0 is_active=1
+         key=tablecopy       library_function	  line=0  scope=0 is_active=1
+         key=typeof          library_function	  line=0  scope=0 is_active=1
+         key=cos             library_function	  line=0  scope=0 is_active=1
+         key=argument        library_function	  line=0  scope=0 is_active=1
+         key=print           library_function	  line=0  scope=0 is_active=1
+         key=g               user_function()   	  line=5  scope=0 is_active=1
+         key=h               user_function(y,z)	  line=9  scope=0 is_active=1
+ 
+
+Symbol Table gia scope : 1
+         key=y              variable  line=9  scope=1 is_active=0
+         key=z              variable  line=9  scope=1 is_active=0
+         key=x              variable  line=6  scope=1 is_active=0
+
+
+Ayta prepei na ektypwsei kanonika o compiler sas. Ektos kai an exete pei otan blepei parse error
+tote na stamataei o compiler sas. 
+Kalo 8a htan na mhn stamataei gia thn wra to programma sas gia na mporoyme na doyme kai emeis 
+ola ta la8h kai ta swsta :) alla an to exete kanei na stamataei den peirazei. 
+

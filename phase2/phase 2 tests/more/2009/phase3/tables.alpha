@@ -1,0 +1,48 @@
+
+///--- Simple arrays
+vec0 = [];
+vec3 = [0, 1, 0];
+vec5 = [1, -2, 1, 0, 1];
+
+///--- An array of arrays
+vectors = [vec0, vec3, vec5];
+
+///--- Print arrays
+for (i=0; i < objecttotalmembers(vectors); ++i)
+{
+	dim = objecttotalmembers(vectors[i]);
+	print("vector[",  dim, "]: ");
+	for (j=0; j < dim; ++j)
+		print(vectors[i][j]);
+}
+
+///--- Directory in alpha {key:data} mapping
+directory = [ {"x" : vectors[1][2]}, {"y" : vectors[2][0]}, {"z" : 42},
+			  {3 : 2}, {"f" : (function (x) {return 2*x;})},
+			  {0 : []}, {[] : "empty_table"}, {vec3 : "vec3"}
+			];
+
+
+function assert(condition)
+{
+	if (not condition)
+		print("ASSERTION FAILED!");
+}
+
+assert(directory[3] == 2);
+assert(directory[ [0,1,0] ] == "vec3");
+
+///--- The following lines are equivalent
+assert(directory["f"](2) == 4);
+assert(directory.f(2) == 4);
+
+///--- Appending the directory
+directory["g"] = assert;
+directory.g(directory.y == 1);
+directory.g = nil;
+
+directory["()"] = (function (this, x) {
+					 return this.z + x;
+				   });
+assert(directory(3) == 45);
+

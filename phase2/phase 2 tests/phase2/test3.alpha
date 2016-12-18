@@ -1,0 +1,12 @@
+
+
+
+
+function g(){
+        x=6;
+}
+
+function h(y,z){
+        g=5;
+}
+
